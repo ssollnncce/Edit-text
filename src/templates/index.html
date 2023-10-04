@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Editor</title>
+</head>
+<body>
+    <div class="paper">
+        <div class="container-button">
+            <button class="action back">
+                <i class="fa fa-arrow-left"></i>
+            </button>
+            <button class="action go">
+                <i class="fa fa-arrow-right"></i>
+            </button>
+            <button class="action head">
+                <i class="fa fa-heading"></i>
+            </button>
+            <button class="action paragraph">
+                <i class="fa fa-paragraph"></i>
+            </button>
+            <button class="action image">
+                <i class="fa fa-image"></i>
+            </button>
+            <button class="copy">Скопировать HTML</button>
+        </div>
+        <div class="word" contenteditable="true" onclick="hideText(this)" id="editableDiv">
+            Начните печатать здесь...
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+<script src="https://kit.fontawesome.com/dfe8606c88.js" crossorigin="anonymous"></script>
+</html>

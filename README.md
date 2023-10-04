@@ -1,19 +1,11 @@
-# edit-text
+# Базовый WYSIWIG-редактор
 
-## Project setup
-```
-npm install
-```
+![HTML Badge](https://img.shields.io/badge/HTML-Used-blue?style=flat-square)   ![CSS Badge](https://img.shields.io/badge/CSS-Used-green?style=flat-square) ![Vue.js Badge](https://img.shields.io/badge/Vue.js-Used-brightgreen?style=flat-square)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+* Возможности редактора
+  + Перемещение вперед, назад по истории 
+  + Изменение стиля выделенного текста на заголовок и абзац
+  + Добавление изображений 
+  + Копирование HTML кода
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
