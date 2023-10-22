@@ -4,7 +4,6 @@ body{
     align-items: center;
 }
 .paper{
-    width: 800px;
     height: 100vh;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -52,4 +51,10 @@ body{
     border: none;
     border-radius: 16px;
     padding: 8px;
+}
+
+@media (max-width: 800px){
+    .paper{
+        display: flex;
+    }
 }
